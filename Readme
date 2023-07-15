@@ -1,0 +1,44 @@
+Lotto Number Generator
+
+Developer: Karabo Khunou
+
+The Lotto Number Generator is a Java program that allows users to generate unique random numbers within a specified range and quantity of balls. It can be used for various lotto games or number selection tasks.
+Features
+
+    Generates unique random numbers within a given range.
+    Allows users to specify the number of balls to be selected.
+    Ensures that duplicates are not included in the generated numbers.
+    Provides a simple and easy-to-use command-line interface.
+
+Getting Started
+
+    Ensure you have Java Development Kit (JDK) installed on your machine.
+    Clone or download the Lotto Number Generator repository.
+    Open a terminal or command prompt and navigate to the project directory.
+    Compile the Java source file: javac LottoNumberGenerator.java
+    Run the program: java LottoNumberGenerator
+
+Usage
+
+    Set the desired range and quantity of balls in the main method of the LottoNumberGenerator class.
+    Compile and run the program as described in the "Getting Started" section.
+    The program will generate and display the unique random numbers.
+
+Example
+
+Let's assume we want to generate 6 unique random numbers within the range of 1 to 49. We would set the following values in the main method:
+
+java
+
+int minNumber = 1;
+int maxNumber = 49;
+int numberOfBalls = 6;
+
+Upon running the program, it will generate and display the lotto numbers.
+Contributing
+
+Contributions to the Lotto Number Generator project are welcome! Feel free to submit bug reports, feature requests, or pull requests. Please ensure that your contributions align with the project's coding style and guidelines.
+
+Contact
+
+For any inquiries or feedback, please contact Karabo Khunou at karaborkhunou@gmail.com.
